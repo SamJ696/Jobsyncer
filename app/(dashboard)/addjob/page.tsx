@@ -1,9 +1,12 @@
-import React from 'react'
+import CreateJobForm from "@/components/CreateJobForm";
+import React from "react";
 
 const AddJob = () => {
   return (
-    <h1 className="text-4xl">AddJob</h1>
-  )
-}
+    <>
+      <CreateJobForm />
+    </>
+  );
+};
 
 export default AddJob;
